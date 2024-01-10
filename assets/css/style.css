@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Salsa&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +7,7 @@
 
 body header {
   background-color: black;
-  font-family: "indie flower";
+  font-family: "Salsa", cursive;
   color: white;
   border-bottom: 2px solid white;
 }
@@ -20,15 +20,20 @@ body header nav img {
 body header nav ul li .nav-link {
   font-size: 20px;
   color: white;
+  text-decoration: none;
+}
+body header nav .nav-link:hover {
+  color: rgb(148, 148, 148);
+  text-decoration: none;
 }
 body header nav div {
   border-bottom: 2px solid white;
 }
 body main {
   background-color: black;
-  font-family: "Indie Flower";
   color: white;
   text-align: center;
+  font-family: "Salsa", cursive;
 }
 body main .fondo {
   background-image: url(../img/2.png);
@@ -50,4 +55,41 @@ body main .fondo .presentacion img {
   width: 300px;
   border-radius: 100%;
   margin: 10px 25px;
+}
+body main .sobremi h1 {
+  font-size: 36px;
+  padding: 0px 100px;
+}
+body main .sobremi .sobremi-items {
+  font-size: 26px;
+  padding: 0px 200px 100px 200px;
+}
+body main .sobremi .sobremi-items div {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+}
+body main .sobremi .sobremi-items div img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 10px 20px;
+}
+body main .servicios {
+  display: flex;
+  padding: 60px 0px;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+body main .servicios .servicios-item {
+  padding: 10px 70px;
+}
+body main .servicios .servicios-item i {
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  border: solid white 3px;
+  border-radius: 100%;
+  padding: 30px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
