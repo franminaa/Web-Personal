@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    header {
+        background-color: black;
+        font-family: 'indie flower';
+        color: white;
+        border-bottom: 2px solid white;
+
+        nav {
+            padding: 50px;
+            
+            img {
+                width: 170px;
+            }
+
+            ul li .nav-link {
+                font-size: 20px;
+                color: white;
+            }
+            div {
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+
+    main {
+        background-color: black;
+        font-family: 'Indie Flower';
+        color: white;
+        text-align: center;
+
+        .fondo {
+            background-image: url(../img/2.png);
+            background-position: center;
+            background-size: cover;
+            padding: 100px 10px;
+
+            .presentacion {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 10px 300px;
+
+                p {
+                    font-size: 30px;
+                }
+
+                img {
+                    width: 300px;
+                    border-radius: 100%;
+                    margin: 10px 25px;
+                }
+            }
+        }
+    }
+}

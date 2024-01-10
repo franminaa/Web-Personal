@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  background-color: black;
+  font-family: "indie flower";
+  color: white;
+  border-bottom: 2px solid white;
+}
+body header nav {
+  padding: 50px;
+}
+body header nav img {
+  width: 170px;
+}
+body header nav ul li .nav-link {
+  font-size: 20px;
+  color: white;
+}
+body header nav div {
+  border-bottom: 2px solid white;
+}
+body main {
+  background-color: black;
+  font-family: "Indie Flower";
+  color: white;
+  text-align: center;
+}
+body main .fondo {
+  background-image: url(../img/2.png);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 10px;
+}
+body main .fondo .presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 300px;
+}
+body main .fondo .presentacion p {
+  font-size: 30px;
+}
+body main .fondo .presentacion img {
+  width: 300px;
+  border-radius: 100%;
+  margin: 10px 25px;
+}/*# sourceMappingURL=style.css.map */
